@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79FA027CEFE803D25CF8B78E /* Pods_Peek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE06295FAEA69B4F4BAF4480 /* Pods_Peek.framework */; };
+		A638BB421C5DB63700D800E0 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A638BB411C5DB63700D800E0 /* DataService.swift */; };
 		A676E7691C5D9578006A7B5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A676E7681C5D9578006A7B5B /* AppDelegate.swift */; };
 		A676E76B1C5D9578006A7B5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A676E76A1C5D9578006A7B5B /* ViewController.swift */; };
 		A676E76E1C5D9578006A7B5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A676E76C1C5D9578006A7B5B /* Main.storyboard */; };
 		A676E7701C5D9578006A7B5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A676E76F1C5D9578006A7B5B /* Assets.xcassets */; };
 		A676E7731C5D9578006A7B5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A676E7711C5D9578006A7B5B /* LaunchScreen.storyboard */; };
+		A676E77F1C5D95EF006A7B5B /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A676E77E1C5D95EF006A7B5B /* Roboto-Light.ttf */; };
+		A676E7811C5D9608006A7B5B /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A676E7801C5D9608006A7B5B /* Roboto-Medium.ttf */; };
+		A676E7831C5D961A006A7B5B /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A676E7821C5D961A006A7B5B /* Roboto-Thin.ttf */; };
+		A676E7861C5D9865006A7B5B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A676E7851C5D9865006A7B5B /* Constants.swift */; };
+		A676E7881C5D9AF8006A7B5B /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A676E7871C5D9AF8006A7B5B /* MaterialView.swift */; };
+		A676E78C1C5DA002006A7B5B /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A676E78B1C5DA002006A7B5B /* MaterialButton.swift */; };
+		A676E78E1C5DA25E006A7B5B /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A676E78D1C5DA25E006A7B5B /* MaterialTextField.swift */; };
+		A676E7931C5DAA17006A7B5B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A676E7901C5DAA17006A7B5B /* Bolts.framework */; };
+		A676E7941C5DAA17006A7B5B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A676E7911C5DAA17006A7B5B /* FBSDKCoreKit.framework */; };
+		A676E7951C5DAA17006A7B5B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A676E7921C5DAA17006A7B5B /* FBSDKLoginKit.framework */; };
+		A689DA691C5E8A8500382996 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A689DA681C5E8A8500382996 /* FeedVC.swift */; };
+		A689DA6B1C5E8BDF00382996 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A689DA6A1C5E8BDF00382996 /* PostCell.swift */; };
+		A6AFFAA71C601AC10025AC83 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AFFAA61C601AC10025AC83 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49DA43100581C0CB207643E7 /* Pods-Peek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Peek.release.xcconfig"; path = "Pods/Target Support Files/Pods-Peek/Pods-Peek.release.xcconfig"; sourceTree = "<group>"; };
+		A638BB411C5DB63700D800E0 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		A676E7651C5D9578006A7B5B /* Peek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A676E7681C5D9578006A7B5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A676E76A1C5D9578006A7B5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +39,21 @@
 		A676E76F1C5D9578006A7B5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A676E7721C5D9578006A7B5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A676E7741C5D9578006A7B5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A676E77E1C5D95EF006A7B5B /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		A676E7801C5D9608006A7B5B /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		A676E7821C5D961A006A7B5B /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		A676E7851C5D9865006A7B5B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A676E7871C5D9AF8006A7B5B /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		A676E78B1C5DA002006A7B5B /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		A676E78D1C5DA25E006A7B5B /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		A676E7901C5DAA17006A7B5B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		A676E7911C5DAA17006A7B5B /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		A676E7921C5DAA17006A7B5B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		A689DA681C5E8A8500382996 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		A689DA6A1C5E8BDF00382996 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		A6AFFAA61C601AC10025AC83 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		FB9C12207AF4A59B73AB0569 /* Pods-Peek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Peek.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Peek/Pods-Peek.debug.xcconfig"; sourceTree = "<group>"; };
+		FE06295FAEA69B4F4BAF4480 /* Pods_Peek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Peek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +61,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A676E7931C5DAA17006A7B5B /* Bolts.framework in Frameworks */,
+				A676E7941C5DAA17006A7B5B /* FBSDKCoreKit.framework in Frameworks */,
+				A676E7951C5DAA17006A7B5B /* FBSDKLoginKit.framework in Frameworks */,
+				79FA027CEFE803D25CF8B78E /* Pods_Peek.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43BA487D36697D212BB23A88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB9C12207AF4A59B73AB0569 /* Pods-Peek.debug.xcconfig */,
+				49DA43100581C0CB207643E7 /* Pods-Peek.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		60F00AC7ADB8FE7274CC65C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE06295FAEA69B4F4BAF4480 /* Pods_Peek.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A638BB401C5DB62000D800E0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A638BB411C5DB63700D800E0 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		A676E75C1C5D9578006A7B5B = {
 			isa = PBXGroup;
 			children = (
 				A676E7671C5D9578006A7B5B /* Peek */,
 				A676E7661C5D9578006A7B5B /* Products */,
+				43BA487D36697D212BB23A88 /* Pods */,
+				60F00AC7ADB8FE7274CC65C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +117,76 @@
 		A676E7671C5D9578006A7B5B /* Peek */ = {
 			isa = PBXGroup;
 			children = (
+				A638BB401C5DB62000D800E0 /* Services */,
+				A676E78F1C5DAA00006A7B5B /* Framworks */,
+				A676E7841C5D9853006A7B5B /* Util */,
+				A676E77D1C5D95A6006A7B5B /* Resources */,
+				A676E77C1C5D959B006A7B5B /* Model */,
+				A676E77B1C5D9596006A7B5B /* View */,
+				A676E77A1C5D958D006A7B5B /* Controller */,
 				A676E7681C5D9578006A7B5B /* AppDelegate.swift */,
-				A676E76A1C5D9578006A7B5B /* ViewController.swift */,
 				A676E76C1C5D9578006A7B5B /* Main.storyboard */,
 				A676E76F1C5D9578006A7B5B /* Assets.xcassets */,
 				A676E7711C5D9578006A7B5B /* LaunchScreen.storyboard */,
 				A676E7741C5D9578006A7B5B /* Info.plist */,
 			);
 			path = Peek;
+			sourceTree = "<group>";
+		};
+		A676E77A1C5D958D006A7B5B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A676E76A1C5D9578006A7B5B /* ViewController.swift */,
+				A689DA681C5E8A8500382996 /* FeedVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A676E77B1C5D9596006A7B5B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A676E7871C5D9AF8006A7B5B /* MaterialView.swift */,
+				A676E78B1C5DA002006A7B5B /* MaterialButton.swift */,
+				A676E78D1C5DA25E006A7B5B /* MaterialTextField.swift */,
+				A689DA6A1C5E8BDF00382996 /* PostCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A676E77C1C5D959B006A7B5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A6AFFAA61C601AC10025AC83 /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A676E77D1C5D95A6006A7B5B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A676E77E1C5D95EF006A7B5B /* Roboto-Light.ttf */,
+				A676E7801C5D9608006A7B5B /* Roboto-Medium.ttf */,
+				A676E7821C5D961A006A7B5B /* Roboto-Thin.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A676E7841C5D9853006A7B5B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A676E7851C5D9865006A7B5B /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		A676E78F1C5DAA00006A7B5B /* Framworks */ = {
+			isa = PBXGroup;
+			children = (
+				A676E7901C5DAA17006A7B5B /* Bolts.framework */,
+				A676E7911C5DAA17006A7B5B /* FBSDKCoreKit.framework */,
+				A676E7921C5DAA17006A7B5B /* FBSDKLoginKit.framework */,
+			);
+			name = Framworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A676E7771C5D9578006A7B5B /* Build configuration list for PBXNativeTarget "Peek" */;
 			buildPhases = (
+				FF805F636A11209D0805890C /* Check Pods Manifest.lock */,
 				A676E7611C5D9578006A7B5B /* Sources */,
 				A676E7621C5D9578006A7B5B /* Frameworks */,
 				A676E7631C5D9578006A7B5B /* Resources */,
+				9E5CF45FE17213A9BAF334D6 /* Embed Pods Frameworks */,
+				4E6F412D216F0E734F9B0B2C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,21 +250,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A676E7811C5D9608006A7B5B /* Roboto-Medium.ttf in Resources */,
 				A676E7731C5D9578006A7B5B /* LaunchScreen.storyboard in Resources */,
+				A676E7831C5D961A006A7B5B /* Roboto-Thin.ttf in Resources */,
 				A676E7701C5D9578006A7B5B /* Assets.xcassets in Resources */,
+				A676E77F1C5D95EF006A7B5B /* Roboto-Light.ttf in Resources */,
 				A676E76E1C5D9578006A7B5B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E6F412D216F0E734F9B0B2C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Peek/Pods-Peek-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E5CF45FE17213A9BAF334D6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Peek/Pods-Peek-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF805F636A11209D0805890C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A676E7611C5D9578006A7B5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A676E78E1C5DA25E006A7B5B /* MaterialTextField.swift in Sources */,
+				A638BB421C5DB63700D800E0 /* DataService.swift in Sources */,
 				A676E76B1C5D9578006A7B5B /* ViewController.swift in Sources */,
 				A676E7691C5D9578006A7B5B /* AppDelegate.swift in Sources */,
+				A689DA691C5E8A8500382996 /* FeedVC.swift in Sources */,
+				A689DA6B1C5E8BDF00382996 /* PostCell.swift in Sources */,
+				A676E7861C5D9865006A7B5B /* Constants.swift in Sources */,
+				A676E7881C5D9AF8006A7B5B /* MaterialView.swift in Sources */,
+				A676E78C1C5DA002006A7B5B /* MaterialButton.swift in Sources */,
+				A6AFFAA71C601AC10025AC83 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,8 +434,14 @@
 		};
 		A676E7781C5D9578006A7B5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB9C12207AF4A59B73AB0569 /* Pods-Peek.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Peek",
+				);
 				INFOPLIST_FILE = Peek/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = puricode.Peek;
@@ -258,8 +451,14 @@
 		};
 		A676E7791C5D9578006A7B5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49DA43100581C0CB207643E7 /* Pods-Peek.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Peek",
+				);
 				INFOPLIST_FILE = Peek/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = puricode.Peek;
@@ -286,6 +485,7 @@
 				A676E7791C5D9578006A7B5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
