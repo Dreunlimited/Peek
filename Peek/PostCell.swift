@@ -16,15 +16,22 @@ class PostCell: UITableViewCell {
     @IBOutlet weak var showCaseImg: UIImageView!
     @IBOutlet weak var desc: UITextView!
     @IBOutlet weak var likes: UILabel!
+    @IBOutlet weak var likeImage: UIImageView!
 
      var post:Post!
      var request:Request?
+    var likeRef: Firebase!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
         
-           }
+        let tap = UITapGestureRecognizer(target: self, action: "likedTapped:")
+        tap.numberOfTapsRequired = 1
+        likeImage.addGestureRecognizer(tap)
+        likeImage.userInteractionEnabled = true
+        
+    }
     
    
     
@@ -39,6 +46,8 @@ class PostCell: UITableViewCell {
     
     func configureCell(post: Post, imag: UIImage?) {
         self.post = post
+        
+        likeRef = DataService.ds.REF_USER_CURRENT.childByAppendingPath("likes").childByAppendingPath(post.postKey)
         
         self.likes.text = "\(post.likes)"
         self.desc.text = post.postDescription
@@ -62,6 +71,43 @@ class PostCell: UITableViewCell {
         }else {
             self.showCaseImg.hidden = true
         }
+        
+        DataService.ds.REF_USER_CURRENT.childByAppendingPath("likes").childByAppendingPath(post.postKey)
+        
+        likeRef.observeSingleEventOfType(.Value, withBlock:  { snapshot in
+            
+            //NSNull in Firebase means the data is not there
+            //if there is no data in firebase it returns NSNUll 
+            
+            if let doesNotExist = snapshot.value as? NSNull {
+                //We have not liked this post
+                
+                self.likeImage.image = UIImage(named: "heart-empty")
+                
+            }else {
+                self.likeImage.image = UIImage(named: "heart-full")
+
+            }
+        })
+    }
+    
+    func likedTapped(sender: UITapGestureRecognizer) {
+        likeRef.observeSingleEventOfType(.Value, withBlock:  { snapshot in
+            
+            if let doesNotExist = snapshot.value as? NSNull {
+                 self.likeImage.image = UIImage(named: "heart-full")
+                self.post.adjustLikes(true)
+                self.likeRef.setValue(true)
+               
+                
+            }else {
+                 self.likeImage.image = UIImage(named: "heart-empty")
+                self.post.adjustLikes(false)
+                self.likeRef.removeValue()
+                
+            }
+        })
+
     }
   
 }

@@ -24,6 +24,8 @@ class FeedVC: UIViewController, UITableViewDataSource, UITableViewDelegate, UIIm
     override func viewDidLoad() {
         super.viewDidLoad()
         
+      
+        
         tableView.estimatedRowHeight = 391
 
         tableView.delegate = self
